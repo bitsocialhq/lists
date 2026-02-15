@@ -8,153 +8,229 @@
       "title": "/pol/ - Politically Incorrect",
       "directoryCode": "pol",
       "communityAddress": "politically-incorrect.eth",
-      "nsfw": true,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": true
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": true,
+        "hasFlags": true,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/biz/ - Business & Finance",
       "directoryCode": "biz",
       "communityAddress": "business-and-finance.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-post",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-post",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/sci/ - Science & Math",
       "directoryCode": "sci",
       "communityAddress": "science-and-math.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/g/ - Technology",
       "directoryCode": "g",
       "communityAddress": "technology-posting.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/vg/ - Video Game Generals",
       "directoryCode": "vg",
       "communityAddress": "videogame-generals.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/fit/ - Fitness",
       "directoryCode": "fit",
       "communityAddress": "fitness-posting.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/adv/ - Advice",
       "directoryCode": "adv",
       "communityAddress": "advice-posting.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/wsg/ - Worksafe GIF",
       "directoryCode": "wsg",
       "communityAddress": "worksafe-gif.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/diy/ - Do It Yourself",
       "directoryCode": "diy",
       "communityAddress": "do-it-yourself.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/out/ - Outdoors",
       "directoryCode": "out",
       "communityAddress": "outdoors-posting.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/ic/ - Artwork/Critique",
       "directoryCode": "ic",
       "communityAddress": "artwork-critique.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/mu/ - Music",
       "directoryCode": "mu",
       "communityAddress": "music-posting.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/int/ - International",
       "directoryCode": "int",
       "communityAddress": "international-sfw.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": true
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": true,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/lit/ - Literature",
       "directoryCode": "lit",
       "communityAddress": "literature-posting.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/tv/ - Television & Film",
       "directoryCode": "tv",
       "communityAddress": "television-and-film.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/vip/ - Very Important Posts",
       "directoryCode": "vip",
       "communityAddress": "very-important-posts.eth",
-      "nsfw": false,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": false,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/gif/ - Adult GIF",
       "directoryCode": "gif",
       "communityAddress": "adult-gif.eth",
-      "nsfw": true,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": true,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/bant/ - International/Random",
       "directoryCode": "bant",
       "communityAddress": "international-nsfw.eth",
-      "nsfw": true,
-      "pseudonymityMode": "per-post",
-      "hasFlags": true
+      "features": {
+        "pseudonymityMode": "per-post",
+        "nsfw": true,
+        "hasFlags": true,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     },
     {
       "title": "/b/ - Random",
       "directoryCode": "b",
       "communityAddress": "random-nsfw.eth",
-      "nsfw": true,
-      "pseudonymityMode": "per-reply",
-      "hasFlags": false
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "nsfw": true,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true
+      }
     }
   ]
 }
