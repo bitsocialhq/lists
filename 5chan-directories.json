@@ -13,7 +13,8 @@
         "nsfw": true,
         "hasFlags": true,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -25,7 +26,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -37,7 +39,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -49,7 +52,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -61,7 +65,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -73,7 +78,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -85,7 +91,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -97,7 +104,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -109,7 +117,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -121,7 +130,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -133,7 +143,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -145,7 +156,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -157,7 +169,8 @@
         "nsfw": false,
         "hasFlags": true,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -169,7 +182,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -181,7 +195,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -193,7 +208,8 @@
         "nsfw": false,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -205,7 +221,8 @@
         "nsfw": true,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -217,7 +234,8 @@
         "nsfw": true,
         "hasFlags": true,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     },
     {
@@ -229,7 +247,8 @@
         "nsfw": true,
         "hasFlags": false,
         "requirePostLink": true,
-        "requirePostLinkIsMedia": true
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300
       }
     }
   ]
