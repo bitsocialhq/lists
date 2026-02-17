@@ -5,16 +5,33 @@
   "updatedAt": 1771140295,
   "directories": [
     {
+      "title": "/a/ - Anime & Manga",
+      "directoryCode": "a",
+      "communityAddress": "anime-and-manga.eth",
+      "features": {
+        "pseudonymityMode": "per-reply",
+        "safeForWork": true,
+        "hasFlags": false,
+        "requirePostLink": true,
+        "requirePostLinkIsMedia": true,
+        "bumpLimit": 300,
+        "noSpoilers": false,
+        "noSpoilerReplies": false
+      }
+    },
+    {
       "title": "/pol/ - Politically Incorrect",
       "directoryCode": "pol",
       "communityAddress": "politically-incorrect.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": true,
+        "safeForWork": false,
         "hasFlags": true,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -23,11 +40,13 @@
       "communityAddress": "business-and-finance.eth",
       "features": {
         "pseudonymityMode": "per-post",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -36,11 +55,13 @@
       "communityAddress": "science-and-math.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -49,11 +70,13 @@
       "communityAddress": "technology-posting.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -62,11 +85,13 @@
       "communityAddress": "videogame-generals.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": false,
+        "noSpoilerReplies": false
       }
     },
     {
@@ -75,11 +100,13 @@
       "communityAddress": "fitness-posting.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -88,11 +115,13 @@
       "communityAddress": "advice-posting.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -101,11 +130,13 @@
       "communityAddress": "worksafe-gif.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -114,11 +145,13 @@
       "communityAddress": "do-it-yourself.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -127,11 +160,13 @@
       "communityAddress": "outdoors-posting.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -140,11 +175,13 @@
       "communityAddress": "artwork-critique.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -153,11 +190,13 @@
       "communityAddress": "music-posting.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -166,11 +205,13 @@
       "communityAddress": "international-sfw.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": true,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -179,11 +220,13 @@
       "communityAddress": "literature-posting.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": false,
+        "noSpoilerReplies": false
       }
     },
     {
@@ -192,11 +235,13 @@
       "communityAddress": "television-and-film.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": false,
+        "noSpoilerReplies": false
       }
     },
     {
@@ -205,11 +250,13 @@
       "communityAddress": "very-important-posts.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": false,
+        "safeForWork": true,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -218,11 +265,13 @@
       "communityAddress": "adult-gif.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": true,
+        "safeForWork": false,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -231,11 +280,13 @@
       "communityAddress": "international-nsfw.eth",
       "features": {
         "pseudonymityMode": "per-post",
-        "nsfw": true,
+        "safeForWork": false,
         "hasFlags": true,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     },
     {
@@ -244,11 +295,13 @@
       "communityAddress": "random-nsfw.eth",
       "features": {
         "pseudonymityMode": "per-reply",
-        "nsfw": true,
+        "safeForWork": false,
         "hasFlags": false,
         "requirePostLink": true,
         "requirePostLinkIsMedia": true,
-        "bumpLimit": 300
+        "bumpLimit": 300,
+        "noSpoilers": true,
+        "noSpoilerReplies": true
       }
     }
   ]
