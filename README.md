@@ -10,6 +10,7 @@ In the future, this process will be automated by voting.
 
 - `5chan-directories/5chan-<code>-directory.json`: candidate boards for each 5chan directory code. 5chan builds the active directory list by reading these files and choosing the highest-ranked board in each file.
 - `5chan-directories/5chan-directories-defaults.json`: expected 5chan UX defaults and rules keyed by directory code, including directory title and feature defaults. These defaults apply to the directory, not to individual candidate boards.
+- `5chan-directories/bitsocial-seeder-communities.json`: seeder-only compatibility list for public communities that existing `bitsocial-seeder` releases should seed even though they are not 5chan directories. The filename intentionally does not match `5chan-<code>-directory.json`, so 5chan directory consumers ignore it.
 - `seedit-default-subscriptions.json`: communities Seedit auto-subscribes new users to.
 - `whitelist-challenge.json`: public keys exempted from posting challenges.
 
