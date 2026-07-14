@@ -1,7 +1,218 @@
 {
-  "title": "Default seedit Subscriptions",
-  "description": "Default communities seedit auto-subscribes new users to. New users can unsubscribe from any of these to clear their homepage feed.\n\nhttps://github.com/bitsocialnet/lists/blob/master/seedit-default-subscriptions.json",
+  "schemaVersion": 1,
+  "revision": 1,
+  "title": "Seedit Default Communities",
+  "description": "Communities that new Seedit accounts subscribe to by default. Existing users can review later revisions without changing their subscriptions automatically.",
   "createdAt": 1745707200,
-  "updatedAt": 1745707200,
-  "subplebbits": []
+  "updatedAt": 1784021900,
+  "communities": [
+    {
+      "address": "askseedit.bso",
+      "publicKey": "12D3KooWNv5HzmkcKZkxMn1SrfMyozTdTJSr7kA1bzEKKa7PTS5N",
+      "title": "AskSeedit",
+      "description": "Ask the Seedit community anything: thought-provoking and open-ended questions.",
+      "tags": [
+        "questions",
+        "discussion"
+      ]
+    },
+    {
+      "address": "memes-posting.bso",
+      "publicKey": "12D3KooWFkZorC92RxQAwMBYMido8xBM88ghpLWA26mrE9W9Xmxd",
+      "title": "Memes",
+      "description": "Memes of all kinds. A way of describing cultural information being shared.",
+      "tags": [
+        "memes",
+        "humor"
+      ]
+    },
+    {
+      "address": "news-posting.bso",
+      "publicKey": "12D3KooWMxE8DtkGLL5LBm2ENdPJJX9DnimfHDh1uvDgKF8nrwX5",
+      "title": "News",
+      "description": "News from around the world: current events, politics and everything in between.",
+      "tags": [
+        "news",
+        "world"
+      ]
+    },
+    {
+      "address": "pics-posting.bso",
+      "publicKey": "12D3KooWR39v9RaLHXXsJC9NSqdmWgrw5FMjJJAECEAsras4AztU",
+      "title": "Pics",
+      "description": "A place for photographs, pictures, and other images.",
+      "tags": [
+        "pictures",
+        "photography"
+      ]
+    },
+    {
+      "address": "til-posting.bso",
+      "publicKey": "12D3KooWEXNQaBi1xWXW9ksm8Fa5LpAP46YsmV44oGaHrsCJ41Jt",
+      "title": "Today I Learned",
+      "description": "You learn something new every day; what did you learn today?",
+      "tags": [
+        "learning",
+        "facts"
+      ]
+    },
+    {
+      "address": "interestingasfuck.bso",
+      "publicKey": "12D3KooWDexsEFuP8wt4vPKjLn3ZaxEyQJv4EWMU3abnLk7NxEhd",
+      "title": "Interesting As Fuck",
+      "description": "For anything that is InterestingAsFuck.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "address": "gaming-posting.bso",
+      "publicKey": "12D3KooWRHbY2AS9oComoTVpMF4iF33d3GPzKCW7MSfHEJT8qeZc",
+      "title": "Gaming",
+      "description": "A community for (almost) anything related to games: video games, board games, card games, and so on.",
+      "tags": [
+        "gaming",
+        "videogames"
+      ]
+    },
+    {
+      "address": "videos-posting.bso",
+      "publicKey": "12D3KooWQt3UJ6A3AeZxJSFJnspVmYQK1Epj8VeSzrFG1tHiZC9o",
+      "title": "Videos",
+      "description": "The best place for video content of all kinds.",
+      "tags": [
+        "videos"
+      ]
+    },
+    {
+      "address": "funny-posting.bso",
+      "publicKey": "12D3KooWFL5oGc9p9CYs25eeK5cCpPXXhibECsnqmuxinq2jbtjP",
+      "title": "Funny",
+      "description": "Seedit's largest humour depository.",
+      "tags": [
+        "humor",
+        "funny"
+      ]
+    },
+    {
+      "address": "aww-posting.bso",
+      "publicKey": "12D3KooWDniAeB2eenHaA25vxk4wt2v8H39dAi42L5bfrMSxtpEs",
+      "title": "Aww",
+      "description": "Things that make you go AWW! Like puppies, bunnies, babies, and so on.",
+      "tags": [
+        "animals",
+        "cute"
+      ]
+    }
+  ],
+  "subplebbits": [
+    {
+      "address": "askseedit.bso",
+      "publicKey": "12D3KooWNv5HzmkcKZkxMn1SrfMyozTdTJSr7kA1bzEKKa7PTS5N",
+      "title": "AskSeedit",
+      "description": "Ask the Seedit community anything: thought-provoking and open-ended questions.",
+      "tags": [
+        "questions",
+        "discussion"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "memes-posting.bso",
+      "publicKey": "12D3KooWFkZorC92RxQAwMBYMido8xBM88ghpLWA26mrE9W9Xmxd",
+      "title": "Memes",
+      "description": "Memes of all kinds. A way of describing cultural information being shared.",
+      "tags": [
+        "memes",
+        "humor"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "news-posting.bso",
+      "publicKey": "12D3KooWMxE8DtkGLL5LBm2ENdPJJX9DnimfHDh1uvDgKF8nrwX5",
+      "title": "News",
+      "description": "News from around the world: current events, politics and everything in between.",
+      "tags": [
+        "news",
+        "world"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "pics-posting.bso",
+      "publicKey": "12D3KooWR39v9RaLHXXsJC9NSqdmWgrw5FMjJJAECEAsras4AztU",
+      "title": "Pics",
+      "description": "A place for photographs, pictures, and other images.",
+      "tags": [
+        "pictures",
+        "photography"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "til-posting.bso",
+      "publicKey": "12D3KooWEXNQaBi1xWXW9ksm8Fa5LpAP46YsmV44oGaHrsCJ41Jt",
+      "title": "Today I Learned",
+      "description": "You learn something new every day; what did you learn today?",
+      "tags": [
+        "learning",
+        "facts"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "interestingasfuck.bso",
+      "publicKey": "12D3KooWDexsEFuP8wt4vPKjLn3ZaxEyQJv4EWMU3abnLk7NxEhd",
+      "title": "Interesting As Fuck",
+      "description": "For anything that is InterestingAsFuck.",
+      "tags": [
+        "interesting"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "gaming-posting.bso",
+      "publicKey": "12D3KooWRHbY2AS9oComoTVpMF4iF33d3GPzKCW7MSfHEJT8qeZc",
+      "title": "Gaming",
+      "description": "A community for (almost) anything related to games: video games, board games, card games, and so on.",
+      "tags": [
+        "gaming",
+        "videogames"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "videos-posting.bso",
+      "publicKey": "12D3KooWQt3UJ6A3AeZxJSFJnspVmYQK1Epj8VeSzrFG1tHiZC9o",
+      "title": "Videos",
+      "description": "The best place for video content of all kinds.",
+      "tags": [
+        "videos"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "funny-posting.bso",
+      "publicKey": "12D3KooWFL5oGc9p9CYs25eeK5cCpPXXhibECsnqmuxinq2jbtjP",
+      "title": "Funny",
+      "description": "Seedit's largest humour depository.",
+      "tags": [
+        "humor",
+        "funny"
+      ],
+      "seeditAutoSubscribe": true
+    },
+    {
+      "address": "aww-posting.bso",
+      "publicKey": "12D3KooWDniAeB2eenHaA25vxk4wt2v8H39dAi42L5bfrMSxtpEs",
+      "title": "Aww",
+      "description": "Things that make you go AWW! Like puppies, bunnies, babies, and so on.",
+      "tags": [
+        "animals",
+        "cute"
+      ],
+      "seeditAutoSubscribe": true
+    }
+  ]
 }

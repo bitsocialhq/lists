@@ -11,12 +11,12 @@ In the future, this process will be automated by voting.
 - `5chan-directories/5chan-<code>-directory.json`: candidate boards for each 5chan directory code. 5chan builds the active directory list by reading these files and choosing the highest-ranked board in each file.
 - `5chan-directories/5chan-directories-defaults.json`: expected 5chan UX defaults and rules keyed by directory code, including directory title and feature defaults. These defaults apply to the directory, not to individual candidate boards.
 - `5chan-directories/bitsocial-seeder-communities.json`: seeder-only compatibility list for public communities that existing `bitsocial-seeder` releases should seed even though they are not 5chan directories. It can temporarily mirror communities from another official directory while old seeders only poll `5chan-directories`; remove mirrored entries once those installations have migrated to releases that consume all official directory lists. The filename intentionally does not match `5chan-<code>-directory.json`, so 5chan directory consumers ignore it.
-- `seedit-directories/seedit-<code>-directory.json`: candidate communities for each Seedit directory code. During the seeder migration, their current winners are also mirrored in `5chan-directories/bitsocial-seeder-communities.json` so existing seeders discover them without an upgrade.
-- `seedit-default-subscriptions.json`: communities Seedit auto-subscribes new users to.
+- `seedit-directories/seedit-<code>-directory.json`: retired Seedit directory data retained for seeder compatibility. Current Seedit clients use `seedit-default-subscriptions.json`; do not treat these directory files as Seedit navigation or subscription targets.
+- `seedit-default-subscriptions.json`: the versioned list of Seedit's default communities. New accounts subscribe to these communities by default; existing users review later revisions before changing their subscriptions. The canonical `communities` field is mirrored in the legacy `subplebbits` field for compatibility with older clients.
 - `whitelist-challenge.json`: public keys exempted from posting challenges.
 
 >### What is this?
-This list is used to show communities by default in our clients' homepages, automatically subscribing all our users to them.
+These lists provide default discovery for Bitsocial clients. New Seedit accounts subscribe to its default communities, while existing users review later revisions before changing their subscriptions. Any user can still connect directly to communities outside these lists.
 
 ## Requirements to have your community included
 - 99% uptime: your community must be online 24/7 to appear by default in our clients.
