@@ -11,12 +11,13 @@ In the future, this process will be automated by voting.
 - `5chan-directories/5chan-<code>-directory.json`: candidate boards for each 5chan directory code. 5chan builds the active directory list by reading these files and choosing the highest-ranked board in each file.
 - `5chan-directories/5chan-directories-defaults.json`: expected 5chan UX defaults and rules keyed by directory code, including directory title and feature defaults. These defaults apply to the directory, not to individual candidate boards.
 - `5chan-directories/bitsocial-seeder-communities.json`: seeder-only compatibility list for public communities that existing `bitsocial-seeder` releases should seed even though they are not 5chan directories. It can temporarily mirror communities from another official directory while old seeders only poll `5chan-directories`; remove mirrored entries once those installations have migrated to releases that consume all official directory lists. The filename intentionally does not match `5chan-<code>-directory.json`, so 5chan directory consumers ignore it.
-- `seedit-directories/seedit-<code>-directory.json`: retired Seedit directory data retained for seeder compatibility. Current Seedit clients use `seedit-default-subscriptions.json`; do not treat these directory files as Seedit navigation or subscription targets.
-- `seedit-default-subscriptions.json`: the versioned list of Seedit's default communities. New accounts subscribe to these communities by default; existing users review later revisions before changing their subscriptions.
+- `seedit-directories/seedit-<code>-directory.json`: versioned candidates for each contested Seedit short route. `/s/<code>` recommends the highest-rated finalized candidate, but subscriptions and post permalinks always use exact community addresses.
+- `seedit-directories/seedit-directories-defaults.json`: display metadata for Seedit's short routes, keyed by directory code.
+- `seedit-default-subscriptions.json`: the versioned list of exact communities Seedit subscribes new accounts to by default. `directoryCode` and `directoryRevision` record which finalized short-route snapshot selected an entry, when applicable; existing users review later winner or membership changes before their exact subscriptions change.
 - `whitelist-challenge.json`: public keys exempted from posting challenges.
 
 >### What is this?
-These lists provide default discovery for Bitsocial clients. New Seedit accounts subscribe to its default communities, while existing users review later revisions before changing their subscriptions. Any user can still connect directly to communities outside these lists.
+These lists provide default discovery for Bitsocial clients. Seedit's short routes are mutable recommendations, while account subscriptions and permanent post links remain pinned to exact addresses. New Seedit accounts subscribe to exact default communities, and existing users review later changes unless they explicitly enabled automatic switching for a route. Any user can still connect directly to communities outside these lists.
 
 ## Requirements to have your community included
 - 99% uptime: your community must be online 24/7 to appear by default in our clients.
