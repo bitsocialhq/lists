@@ -1,6 +1,8 @@
 {
+  "schemaVersion": 1,
+  "revision": 1,
   "title": "Seedit Directory Defaults",
-  "description": "Expected Seedit UX defaults by directory code. These defaults apply to the directory, not to individual candidate communities.",
+  "description": "Display metadata for Seedit's contested short routes. These routes recommend exact communities but are never stored as subscriptions or used in post permalinks.",
   "createdAt": 1783123200,
   "updatedAt": 1783123200,
   "directories": {
