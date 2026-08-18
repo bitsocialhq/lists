@@ -1,0 +1,15 @@
+{
+  "description": "Indexers competing to power /search/ on 5chan. The highest-scoring indexer answers searches; if it is unreachable, 5chan rotates to the next-highest. Anyone can open a PR on this file to add their indexer.\n\nTo be listed, an indexer must serve the 5chan search API over HTTPS with CORS open to 5chan clients: GET /api/search?q=&page=&limit= returning {query, posts, page, limit, total}, and GET /api/posts/<cid> returning {post}. Each post carries cid, community_address, post_cid, parent_cid, depth, timestamp, author_address, author_name, title, content, and the signed raw payload 5chan renders posts from.\n\nThe filename intentionally does not match 5chan-<code>-directory.json, so 5chan directory consumers ignore it.\n\nhttps://github.com/bitsocialnet/lists/blob/master/5chan-search-providers.json",
+  "createdAt": 1787075754,
+  "updatedAt": 1787075754,
+  "providers": [
+    {
+      "id": "5archive",
+      "name": "5archive.org",
+      "siteUrl": "https://5archive.org",
+      "apiUrl": "https://api.5archive.org",
+      "addedAt": 1779182014,
+      "owner": "bitsocialist.bso"
+    }
+  ]
+}
